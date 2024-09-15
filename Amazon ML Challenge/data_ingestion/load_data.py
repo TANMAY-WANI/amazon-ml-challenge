@@ -2,8 +2,6 @@
 import csv
 import sys
 import os
-
-# Add the parent directory to sys.path so Python can find 'utils'
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from utils.helpers import download_images

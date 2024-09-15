@@ -1,6 +1,6 @@
 import re
-import constants
 import os
+import constants
 import requests
 import pandas as pd
 import multiprocessing
